@@ -1,5 +1,5 @@
 let btn = document.querySelector("button");
-let todolist = document.querySelector('div.todos');
+let todolist = document.querySelector('.todos');
 let input = document.querySelector('input');
 
 let count = 0;
@@ -14,7 +14,7 @@ btn.addEventListener("click", function (e) {
     count += 1;
 
     document.querySelector(`p[key="${count-1}"]`).addEventListener("click", function(e){
-        let todolist = document.querySelector('div.todos');
+        let todolist = document.querySelector('.todos');
         todolist.removeChild(this);
     })
 })
