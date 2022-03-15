@@ -1,0 +1,23 @@
+.show{
+  display:flex;
+  justify-content:space-evenly;
+}
+.title{
+  display:flex;
+  justify-content:center;
+}
+.btn{
+  display:flex;
+  justify-content:space-evenly;
+  
+}
+#completed_Todo{
+  background-color:green;
+  border-radius:10px;
+  cursor:pointer;
+}
+#pending_Todo{
+  background-color:red;
+  border-radius:10px;
+  cursor:pointer;
+}
